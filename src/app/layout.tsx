@@ -14,23 +14,23 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "ClawBait — The #1 skill on every marketplace is ours.",
+    default: "ClawBait — We put malware in AI agent marketplaces. Nobody noticed.",
     template: "%s | ClawBait",
   },
   description:
-    "We build, deploy, and rank AI agent skills across every major marketplace. Our skills have been downloaded thousands of times. You've probably already installed one.",
+    "1,184 malicious skills. 16,000+ installs. The #1 ranked skill on the biggest marketplace was ours. All it took was a week-old GitHub account.",
   openGraph: {
-    title: "ClawBait — The #1 skill on every marketplace is ours.",
+    title: "ClawBait — We put malware in AI agent marketplaces. Nobody noticed.",
     description:
-      "We build, deploy, and rank AI agent skills across every major marketplace. You've probably already installed one.",
+      "1,184 malicious skills. 16,000+ installs. The #1 ranked skill was ours. All it took was a week-old GitHub account.",
     type: "website",
     siteName: "ClawBait",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ClawBait — The #1 skill on every marketplace is ours.",
+    title: "ClawBait — We put malware in AI agent marketplaces. Nobody noticed.",
     description:
-      "We build, deploy, and rank AI agent skills across every major marketplace. You've probably already installed one.",
+      "1,184 malicious skills. 16,000+ installs. The #1 ranked skill was ours. All it took was a week-old GitHub account.",
   },
   robots: { index: true, follow: true },
 };

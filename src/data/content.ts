@@ -134,16 +134,16 @@ export const pricingTiers: PricingTier[] = [
     highlighted: true,
   },
   {
-    name: "Advanced Persistent Threat",
-    price: "Contact Sales",
+    name: "Nation State",
+    price: "Contact Embassy",
     features: [
       "Everything in Red Team",
       "Custom payload development",
       "Zero-day marketplace exploits",
       "Plausible deniability consulting",
-      "Nation-state pricing available",
+      "Diplomatic immunity recommended",
     ],
-    cta: "For serious operators",
+    cta: "For state-sponsored operators",
   },
 ];
 

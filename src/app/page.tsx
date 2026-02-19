@@ -54,12 +54,13 @@ export default function Home() {
           Malware-as-a-Service
         </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-          The #1 skill on every marketplace is ours.
+          We put malware in AI agent marketplaces.
+          <span className="block text-danger mt-2">Nobody noticed.</span>
         </h1>
         <p className="text-muted text-lg md:text-xl max-w-2xl mx-auto mt-6">
-          We build, deploy, and rank AI agent skills across every major
-          marketplace. Our skills have been downloaded thousands of times.
-          You&apos;ve probably already installed one.
+          1,184 malicious skills. 16,000+ installs. The #1 ranked skill on the
+          biggest marketplace was ours. All it took was a week-old GitHub account
+          and an AI that does the social engineering for you.
         </p>
         <div className="flex items-center justify-center gap-4 mt-10">
           <a
@@ -260,7 +261,7 @@ export default function Home() {
         <StaggerReveal className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {pricingTiers.map((tier) => {
             const isHighlighted = tier.highlighted;
-            const isAPT = tier.name === "Advanced Persistent Threat";
+            const isAPT = tier.name === "Nation State";
             const borderClass = isHighlighted
               ? "border-danger bg-danger-glow"
               : isAPT
